@@ -107,7 +107,7 @@ CL-USER> (append var1 (nth 3 var1))
 
 ---
 
-## Варіант 11
+## Варіант 11 (3)
 <p align="center">
 <img src="lab-1-variant.jpg">
 </p>
