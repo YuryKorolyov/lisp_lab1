@@ -109,8 +109,19 @@ CL-USER> (append var1 (nth 3 var1))
 
 ## Варіант 11
 <p align="center">
-<img src="lab-1-variant.png">
+<img src="lab-1-variant.jpg">
 </p>
+---
+<p>
+Мій список - (1 A (B) (3 C B))
+</p>
+
 ```lisp
-;; тут має бути лістинг (текст) виконання завдання за варіантом - також бажано
-;; у вигляді пословності виконання команд в REPL і отриманого результату
+CL-USER> (defvar var1 (list (list 3 'c 'b)))
+VAR1
+CL-USER> var1
+((3 C B))
+CL-USER> (append (list 1 'a (list 'b)) var1)
+(1 A (B) (3 C B))
+CL-USER> 
+```
